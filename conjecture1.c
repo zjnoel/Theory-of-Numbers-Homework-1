@@ -5,11 +5,6 @@
 int main(int argc, char* argv[])
 {
     // Finds a contradiction that disproves the following:
-    // int m = 32;
-    // int n = 1024;
-    // int d = findGCD(m, n);
-    // printf("%d\n", d);
-    // return 0;
     // If gcd(m,n) = d, then gcd(a, m*n) * gcd(a, n)/d
     for(int m = 31; m < 2048; m++){
         for(int n = 1024; n < 2048; n++){
